@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>选项</title>
+        <link media="all" rel="stylesheet" href="style/options.css" type="text/css" />
+    </head>
+
+    <body>
+        <div id="navbar-container">
+            <h1>选项</h1>
+            <ul>
+                <li id="browserPageNav" class="selected">基本设置</li>
+                <li id="aboutPageNav">关于</li>
+            </ul>
+        </div>
+        <div id="mainview">
+            <div id="browserPage">
+                <h1>基本设置</h1>
+                <section id="skinSection">
+                    <h3>界面样式：</h3>
+                    <div>
+                        <label><input type="radio" name="skin" value="orange">橙色</label>
+                        <label><input type="radio" name="skin" value="blue">蓝色</label>
+                        <label><input type="radio" name="skin" value="green">绿色</label>
+                        <label><input type="radio" name="skin" value="red">红色</label>
+                        <label><input type="radio" name="skin" value="black">黑色</label>
+                    </div>
+                </section>
+                <section id="dictSection">
+                    <h3>词典配置：</h3>
+                    <div>
+                        <div>
+                            <h4>词典功能选择：</h4>
+                            <select name="mainDict">
+                            	<option value="bing">必应词典</option>
+                                <!-- <option value="powerword">金山词霸</option>
+                                <option value="qqdict">QQ词典</option> -->
+                            </select>
+                            <p class="commit">词典用于查询英语单词</p>
+                        </div>
+                        <div>
+                            <h4>翻译功能选择：</h4>
+                            <select name="translate">
+                            	<option value="baidu">百度翻译</option>
+                                <option value="google">Google翻译</option>
+                                <option value="youdao">有道翻译</option>
+                            </select>
+                            <p class="commit">
+                            	* 翻译用于英汉互译<br>
+                            	* 由于种种原因,Google的服务可能会很慢.如果您不能正常使用Google的话,建议您不要选择Google翻译.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <section id="captureSection">
+                    <h3>取词设置：</h3>
+                    <div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>是否开启</th>
+                                    <th>取词方式</th>
+                                    <th>辅助键</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>悬停取词</td>
+                                    <td>
+                                        <select>
+                                            <option value="type">无</option>
+                                            <option value="ctrlKey">Ctrl</option>
+                                            <option value="altKey">Alt</option>
+                                            <option value="shiftKey">shift</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>双击取词</td>
+                                    <td>
+                                        <select>
+                                        	<option value="shiftKey">shift</option>
+                                            <option value="type">无</option>
+                                            <option value="ctrlKey">Ctrl</option>
+                                            <option value="altKey">Alt</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>拖动取词</td>
+                                    <td>
+                                        <select>
+                                        	<option value="shiftKey">shift</option>
+                                            <option value="type">无</option>
+                                            <option value="ctrlKey">Ctrl</option>
+                                            <option value="altKey">Alt</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="commit">开启取词会添加额外的标签，Web开发者注意</p>
+                    </div>
+                </section>
+
+                <section id="dictSection">
+                	<h3>时间戳转换：</h3>
+                	<div>
+                		在翻译输入框中输下时间戳后可直接转成日期格式;<br>
+                		输入日期格式的字符串也可以转成时间戳.
+                	</div>
+                </section>
+                <p class="commit">部分更新需要刷新查词页面</p>
+            </div>
+            <div id="aboutPage" style="display: none">
+                <h1>关于</h1>
+                <section id="illustrateSection">
+                    <h3>说明：</h3>
+                    <div>
+                        <p>本扩展提供的所有服务完全免费。</p>
+						<p>您可以也可关注我的公众帐号，有升级我们会第一时间发送更新信息。</p>
+						<p><img src="http://tbimage.oss-cn-hangzhou.aliyuncs.com/qrcode_for_gh_03ea6e95b313_344.jpg" /></p>
+						<p>Copyright © 2013 - 2015 <a href="http://www.banjuanshu.com/" title="半卷书" target="_blank">半卷书</a></p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="../src/options.js"></script>
+    </body>
+</html>
