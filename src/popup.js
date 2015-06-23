@@ -6,7 +6,6 @@
             
             function getInstance(){
                 if(!this.instance){
-                    console.log(111111111);
                     this.instance = {};
                 }
                 return this.instance;
