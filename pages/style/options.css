@@ -1,0 +1,219 @@
+body {
+    margin: 10px;
+    font-size: 13px;
+    font-family: Arial, 'Microsoft Yahei', Simsun, sans-serif;
+    display: -webkit-box;
+}
+
+input[type="text"]{
+    -webkit-border-radius: 2px;
+    border: 1px solid #AAA;
+    padding: 1px 3px;
+}
+
+input[type="button"] {
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-user-select: none;
+    background: -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    border: 1px solid #AAA;
+    color: #444;
+    font-size: inherit;
+    margin-bottom: 0px;
+    min-width: 4em;
+    padding: 3px 12px 3px 12px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 1px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    line-height: 2em;
+}
+
+a {
+    color: #3F6EC2;
+}
+
+.commit {
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 20px;
+}
+
+tr:only-child {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #eee;
+    cursor: default;
+}
+
+select {
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 5px;
+    -webkit-padding-start: 5px;
+    -webkit-user-select: none;
+    background-image: -webkit-linear-gradient(#fafafa, #f4f4f4 40%, #e5e5e5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*************************************************************************************************************************************/
+#navbar-container {
+    -webkit-border-end: 1px solid #C6C9CE;
+    background: -webkit-linear-gradient(rgba(234, 238, 243, 0.2), #EAEEF3), -webkit-linear-gradient(left, #EAEEF3, #EAEEF3 97%, #D3D7DB);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 216px;
+    z-index: 2;
+}
+
+#navbar-container h1 {
+    -webkit-padding-end: 24px;
+    -webkit-user-select: none;
+    color: #53637D;
+    cursor: pointer;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 14px;
+    padding-top: 13px;
+    text-align: end;
+    text-shadow: white 0 1px 2px;
+}
+
+#navbar-container > ul {
+    -webkit-user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container > ul > li {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    color: #426DC9;
+    cursor: pointer;
+    display: block;
+    font-size: 105%;
+    outline: none;
+    padding: 7px 0;
+    text-align: end;
+    text-shadow: white 0 1px 1px;
+    -webkit-padding-end: 24px;
+}
+
+#navbar-container > ul > li.selected {
+    -webkit-box-shadow: 0px 1px 0px #F7F7F7;
+    background: -webkit-linear-gradient(left, #BBCEE9, #BBCEE9 97%, #AABEDC);
+    border-bottom: 1px solid #8FAAD9;
+    border-top: 1px solid #8FAAD9;
+    color: black;
+    text-shadow: #BBCEE9 0 1px 1px;
+}
+
+/*************************************************************************************************************************************/
+#mainview {
+    -webkit-box-align: stretch;
+    -webkit-padding-start: 216px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+#mainview > div {
+    min-height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 888px;
+    min-width: 600px;
+    padding: 0 24px;
+}
+
+#mainview > div h1 {
+    -webkit-padding-end: 24px;
+    -webkit-user-select: none;
+    border-bottom: 1px solid #EEE;
+    color: #53637D;
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 13px;
+    text-shadow: white 0 1px 2px;
+}
+
+section {
+    -webkit-box-orient: horizontal;
+    border-bottom: 1px solid #EEE;
+    display: -webkit-box;
+    margin-top: 17px;
+    padding-bottom: 20px;
+}
+
+section > h3 {
+    font-size: 105%;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: middle;
+    width: 140px;
+}
+
+section > div:only-of-type {
+    -webkit-box-flex: 1;
+}
+
+section > div:only-of-type label {
+    margin-right: 5px;
+}
+
+#hotKeySection > div div:last-of-type {
+    margin-top: 10px;
+}
+
+#dictSection label:last-of-type {
+    margin-left: 10px;
+}
+
+
+#logSection h4 {
+    margin-bottom: 0;
+}
+
+#logSection ul ul {
+    list-style-type: square;
+    margin-left: 24px;
+}

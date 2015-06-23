@@ -1,0 +1,250 @@
+#dict-viclm-simple *{
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: auto;
+
+    float: none;
+    clear: none;
+    display: '';
+
+    margin: 0;
+    padding: 0;
+    border-width: medium;
+    border-color: inherit;
+    border-style: none;
+    width: auto;
+    height: auto;
+    min-width: 0;
+    min-height: 0;
+    max-width: none;
+    max-height: none;
+
+    color: inherit;
+    background-attachment: scroll;
+    background-color: transparent;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+
+    font-size: inherit;
+    font-family: inherit;
+    line-height: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    white-space: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: baseline;
+    overflow: visible;
+    visibility: visible;
+}
+
+#dict-viclm-simple {
+    font-family: 'Microsoft Yahei', Arial, sans-serif, Simsun;
+    font-size: 12px;
+    line-height: 18px;
+    position: absolute;
+    display: inline-block;
+    padding: 4px;
+    z-index: 19860208;
+    border-radius:5px;
+    max-width: 350px;
+    box-shadow:0 0 30px #eee;
+}
+
+#dict-viclm-simple header {
+    margin: 10px 10px 10px 0px;
+    font-size: 22px;
+    padding-left: 10px;
+
+}
+
+#dict-viclm-simple h1 {
+    font-weight: bold;
+    display: inline;
+}
+
+#dict-viclm-simple header span {
+    margin-left: 3px;
+}
+
+#dict-viclm-simple header img {
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: center;
+    position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+}
+
+#dict-viclm-simple p {
+    margin: 2px 10px;
+    padding: 1px 0px;
+}
+
+#dict-viclm-simple span {
+    color: grey;
+}
+
+#dict-viclm-simple footer{
+    overflow:hidden;
+    margin: 5px 0px;
+    padding-left: 7px;
+}
+#dict-viclm-simple footer a{
+    width:16px;
+    height:16px;
+    display:block;
+    float: left;
+    margin-left:3px;
+}
+
+#dict-viclm-simple footer a:first-child{
+    width:14px;
+    height:14px;
+    border:1px solid #333;
+}
+
+/* creates triangle */
+#dict-viclm-simple  div:last-of-type {
+   position:absolute;
+   left:50%;
+   width:0;
+   border-style:solid;
+   background-color: rgba(0,0,0,0);
+}
+
+#dict-viclm-simple div.up:last-of-type {
+   top:-6px;
+   border-width:0 6px 6px;
+}
+
+#dict-viclm-simple div.down:last-of-type {
+   bottom:-6px;
+   border-width:6px 6px 0;
+}
+
+
+
+/** orange */
+
+#dict-viclm-simple.orange {
+    color:#FFF;
+    background: rgb(243, 123, 29);
+}
+#dict-viclm-simple.orange span {
+    color: #fff;
+}
+#dict-viclm-simple.orange header span{
+    color: #fff;
+}
+
+#dict-viclm-simple.orange div.up:last-of-type {
+   border-color:#F9D835 transparent;
+}
+
+#dict-viclm-simple.orange div.down:last-of-type {
+   border-color:#f3961c transparent;
+}
+
+
+
+
+#dict-viclm-simple.blue {
+    color:#fff;
+    background:#1f8dd6;
+}
+
+#dict-viclm-simple.blue header span{
+    color: #fff;
+}
+#dict-viclm-simple.blue p span{
+    color: #fff;
+}
+
+#dict-viclm-simple.blue div.up:last-of-type {
+   border-color:#2E88C4 transparent;
+}
+
+#dict-viclm-simple.blue div.down:last-of-type {
+   border-color:#075698 transparent;
+}
+
+
+/*green*/
+
+#dict-viclm-simple.green {
+    color:#fff;
+    background:#5eb95e;
+}
+
+
+#dict-viclm-simple.green header span{
+    color: rgb(161, 240, 137);
+}
+
+#dict-viclm-simple.green p span{
+    color: #fff;
+    font-weight: bold;
+}
+
+#dict-viclm-simple.green div.up:last-of-type {
+   border-color:#B8DB29 transparent;
+}
+
+#dict-viclm-simple.green div.down:last-of-type {
+   border-color:#5A8F00 transparent;
+}
+
+
+/** red *****/
+
+#dict-viclm-simple.red {
+    color:#fff;
+    background:#dd514c;
+}
+
+#dict-viclm-simple.red header span{
+    color: rgb(236, 164, 154);
+}
+
+#dict-viclm-simple.red p span{
+    color: rgb(236, 164, 154);
+    font-weight: bold;
+}
+
+#dict-viclm-simple.red div.up:last-of-type {
+   border-color:#F04349 transparent;
+}
+
+#dict-viclm-simple.red div.down:last-of-type {
+   border-color:#C81E2B transparent;
+}
+
+
+#dict-viclm-simple.black {
+    color:#fff;
+    background:#333;
+}
+
+
+#dict-viclm-simple.black header span{
+    color: #ddd;
+}
+#dict-viclm-simple.black p span{
+    color: #ddd;
+    font-weight: bold;
+}
+
+#dict-viclm-simple.black div:last-of-type {
+   border-color:#333 transparent;
+}

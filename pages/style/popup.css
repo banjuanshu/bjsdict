@@ -1,0 +1,23 @@
+body {min-width: 360px; margin: 0; padding:0px; font-family: "Microsoft YaHei" ! important; font-size:12px; width: auto; padding-top: 5px;}
+textarea {font-size: 13px;margin: 0 0 -3px 0; width: 100%; resize: none; box-sizing: border-box; height: 30px; padding: 5px 10px; outline:none; line-height: 18px; border-width:0px; border-color: #999; overflow: hidden; word-wrap: break-word}
+h1 {text-align: center;margin: 3em auto;}
+h2 {font-size: 1.2em; margin: 0; position: relative; display: inline-block;}
+nav, section {border-bottom: 1px solid #FFF;}
+nav, footer { background-image:-webkit-linear-gradient(top, #eaeaea, #dfdfdf); font-size: 10px; padding:6px 0px; }
+nav a, footer a{ text-decoration: none;color: #999999; padding:1px 4px; margin-left: 5px; cursor: pointer; }
+nav > div:first-child {margin-bottom: 0px;}
+nav a.active{ background-color: #333333; border-radius: 8px; border: 1px solid #333333; padding:1px 3px;color: #DDDDDD;}
+nav .disabled {display: none;}
+nav a {color: #999999;}
+
+section {padding: 10px; min-height: 140px; color: #000000; }
+section .horn {width: 10px; height: 10px; margin-left: 5px; cursor: pointer;}
+
+.zanzhu {text-decoration: none;outline:none;color: blue; }
+
+p {margin: 5px 0;}
+span {color: grey;}
+
+footer {display:none; text-align: center;}
+footer a {background: url(../../assets/green.png) no-repeat 0 50%; padding-left: 20px; margin-left: 10px;}
+
