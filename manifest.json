@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "src/jquery.min.js", "src/oop.js", "src/dictapi.js", "src/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "assets/3129.png",
+      "default_popup": "pages/popup.html",
+      "default_title": "\u534a\u5377\u4e66\u8bcd\u5178"
+   },
+   "permissions": [
+    	"storage"
+  	],
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "pages/style/ui.css" ],
+      "js": [ "src/dict.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   }],
+   "description": "Chrome\u4E0B\u6700\u597D\u7528\u7684\u7FFB\u8BD1\u5DE5\u5177,\u53EF\u53D6\u8BCD\u53EF\u5212\u8BCD,\u652F\u6301\u91D1\u5C71\u8BCD\u9738\u3001\u5FC5\u5E94\u8BCD\u5178\u3001\u767E\u5EA6\u7FFB\u8BD1\u3001\u6709\u9053\u7FFB\u8BD1\u3001Google\u7FFB\u8BD1",
+   "icons": {
+      "128": "assets/3129.png",
+      "16": "assets/3129.png",
+      "48": "assets/3129.png"
+   },
+   
+   "manifest_version": 2,
+   "name": "\u534a\u5377\u4e66\u8bcd\u5178",
+   "options_page": "pages/options.html",
+   "permissions": [ "tabs", "contextMenus", "*://*/*" ],
+   "version": "2.0",
+   "web_accessible_resources": [ "assets/powerword.png", "assets/bing.png", "assets/qqdict.png", "assets/google.png", "assets/baidu.png", "assets/youdao.png" ]
+}
