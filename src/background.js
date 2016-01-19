@@ -75,8 +75,5 @@
                 port.postMessage(result);
             }
         });
-    }
-	
-	
-
+    }	
 })(this, this.document);
