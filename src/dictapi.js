@@ -125,9 +125,10 @@
         },
         baidu: {
             type: 'translate',
-            url: 'http://openapi.baidu.com/public/2.0/bmt/translate',
+            //url: 'http://api.fanyi.baidu.com/api/trans/vip/translate',
+            url: 'http://www.banjuanshu.com/api/baidu/dict/translation/',
             method: 'get',
-            data: 'from=auto&to=auto&client_id=r1SFkGlNueMFRf0LUj6VpL55&q=?',
+            data: 'from=auto&to=auto&query=?',
             dataType: 'text',
             parse: function (res) {
                 res = JSON.parse(res);
