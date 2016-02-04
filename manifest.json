@@ -28,6 +28,6 @@
    "name": "\u534a\u5377\u4e66\u8bcd\u5178",
    "options_page": "pages/options.html",
    "permissions": [ "tabs", "contextMenus", "*://*/*" ],
-   "version": "2.0",
+   "version": "2.1",
    "web_accessible_resources": [ "assets/powerword.png", "assets/bing.png", "assets/qqdict.png", "assets/google.png", "assets/baidu.png", "assets/youdao.png" ]
 }
