@@ -387,5 +387,3 @@
 	  
 
 })(this, this.document);
-
-
