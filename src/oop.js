@@ -1,5 +1,4 @@
 (function (exports) {
-
     exports.extend = function (childCtor, parentCtor) {
         var fnTest = /\bsuperclass\b/,
             parent = parentCtor.prototype,
