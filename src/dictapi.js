@@ -155,6 +155,7 @@
 				res = res.replace(/\"/g, '');
 				res = res.split(",");
 				
+
 				acceptation += res[0] + " " + res[2] + "<br />";
                 return {tt: [{pos: '', acceptation: acceptation}]};
             }
