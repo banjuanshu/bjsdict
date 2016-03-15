@@ -150,7 +150,6 @@
             parse: function (res) {
                 var acceptation = '';
 			
-
 				res = res.replace(/\[/g, '');
 				res = res.replace(/\]/g, '');
 				res = res.replace(/\"/g, '');
