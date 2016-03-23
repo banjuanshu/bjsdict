@@ -1,6 +1,7 @@
 ;(function (window, document, undefined) {
     var mainview = document.getElementById('mainview');
 
+
     uiEnhance();
     restoreOptions();
 
