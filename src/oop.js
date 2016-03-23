@@ -61,4 +61,5 @@
         return Class;
     };
 
+
 })(this);
