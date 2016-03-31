@@ -28,6 +28,7 @@
         chrome.browserAction.setIcon({path: ico});
     }
 
+
     chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
         if (request.cmd === 'config') {
             sendResponse({
