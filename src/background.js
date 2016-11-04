@@ -4,6 +4,7 @@
     }
 
 
+
     localStorage.skin || (localStorage.skin = 'orange');
     localStorage.mainDict || (localStorage.mainDict = 'bing');
     localStorage.translate || (localStorage.translate = 'baidu');
